@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited, a:active, a:focus, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    position:relative;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    top: 0;
+}
+
+.navlink {
+    padding: 1rem 1.4rem 0;
+}
