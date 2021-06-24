@@ -63,7 +63,8 @@ nav {
     display: flex;
     justify-content: center;
     margin: -2rem 0 0 0;
-    width: 50%;
+    width: 50rem;
+    max-width: 90%;
     margin: auto;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
