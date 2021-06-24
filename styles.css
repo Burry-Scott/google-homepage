@@ -61,12 +61,39 @@ nav {
 .form {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: -2rem 0 0 0;
+    width: 50%;
+    margin: auto;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    box-shadow: 0 1px 6px 0 rgba(183, 199, 247, 0.7);
 }
 
 #searchbar {
-    height: 2rem;
-    width: 40rem;
+    height: 2.5rem;
+    width: 85%;
     border: none;
+    font-size: 1.2rem;
+    outline: none;
+    padding:  0 0 0 .5rem;
+}
+
+#spyglass {
+    height: 1.6rem;
+    width: 1.2rem;
+    align-self: center;
+    padding: 0 0 0 1rem;
+}
+
+
+#mic {
+    height: 2rem;
+    width: 4rem;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    padding: 0 .5rem 0 0;
 }
