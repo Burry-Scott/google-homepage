@@ -19,8 +19,54 @@ nav {
     justify-content:flex-end;
     align-items:center;
     top: 0;
+    padding: 0 1rem;
 }
 
 .navlink {
-    padding: 1rem 1.4rem 0;
+    padding: 1rem .5rem 0;
+}
+
+#button {
+    height:  1.5rem;
+    width: 1.5rem;
+    align-self: center;
+    border-radius: 50%;
+    display:block;
+    text-align: center;
+}
+
+
+#button:hover, #button:active {
+    box-shadow: 0 0 1rem rgba(0,0,0,.15);
+    text-decoration: none;
+    background: gray;
+}
+
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+#profile-pic:hover {
+    box-shadow:  0 0 1rem rgba(0,0,0,.15);
+}
+
+#image {
+    display: block;
+    height: auto;
+    width: 25rem;
+    margin: 2rem auto 0;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: -2rem 0 0 0;
+}
+
+#searchbar {
+    height: 2rem;
+    width: 40rem;
+    border: none;
 }
