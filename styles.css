@@ -7,6 +7,7 @@ body {
 a, a:visited, a:active, a:focus, a:hover {
     text-decoration: none;
     color: black;
+    font-size: .9rem;
 }
 
 a:hover {
@@ -15,24 +16,43 @@ a:hover {
 
 nav {
     position:relative;
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
     top: 0;
     padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.navlink {
-    padding: 1rem .5rem 0;
+.wrapper1 {
+    position: relative;
+    display: flex;
+    margin: .3rem .3rem;
+    align-items: center;
+}
+
+.wrapper2 {
+    position: relative;
+    display: flex;
+    margin: .3rem  .3rem;
+    align-items: center;
+}
+
+.navlink1 {
+    padding: .3rem .5rem;
+    font-size: 1.5rem;
+}
+
+.navlink2 {
+    padding: 0 .5rem;
+    font-size: 1.5rem;
 }
 
 #button {
     height:  1.5rem;
     width: 1.5rem;
-    align-self: center;
     border-radius: 50%;
     display:block;
     text-align: center;
+    margin: .5rem 0 0;
 }
 
 
@@ -45,6 +65,8 @@ nav {
 
 #profile-pic {
     border-radius: 50%;
+    margin: .5rem 0 0 ;
+    
 }
 
 #profile-pic:hover {
@@ -63,7 +85,7 @@ nav {
     display: flex;
     justify-content: center;
     margin: -2rem 0 0 0;
-    width: 50rem;
+    width: 35rem;
     max-width: 90%;
     margin: auto;
     border-top-left-radius: 22px;
